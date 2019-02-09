@@ -29,7 +29,7 @@ li {
 }
 
 .nav-link {
-	margin: 20px;
+	margin: 20px; 
 }
 
 a {
@@ -82,4 +82,51 @@ input[type="submit"] {
 iframe {
 	max-width: 560px;
 	width:100%;
+}
+
+.pricing-items{
+	margin-top: 10px;
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	
+}
+
+.box{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: calc(100% / 4);
+	margin: 10px;
+	border: 1px solid #000;
+	border-radius: 4px;
+	
+}
+
+
+.box-header{
+	background-color: #ddd;
+	color:black;
+	padding: 15px 0;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.box-button {
+	border: 0;
+	margin: 15px 0;
+	background-color: #f1c40f;
+	font-weight: 400;
+}
+
+button:hover{
+		background-color: orange;
+		transition: background-color 1s;
+	}
+input[type="submit"]:hover{
+		background-color: orange;
+		transition: background-color 1s;
 }
